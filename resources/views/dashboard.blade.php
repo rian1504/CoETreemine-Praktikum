@@ -1,6 +1,13 @@
-<div>
-    <!-- Walk as if you are kissing the Earth with your feet. - Thich Nhat Hanh -->
-    <div id="carouselExample" class="carousel slide">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ $title }}</title>
+</head>
+<body>
+<div id="carouselExample" class="carousel slide">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="..." class="d-block w-100" alt="...">
@@ -30,5 +37,5 @@ Simply upload designs to get instant quotes, place orders in minutes, and track 
          Beberapa deskripsi produk PCB yang dapat ditemukan di platform e-commerce meliputi jenis bahan, ukuran, dan warna PCB, serta komponen yang dibutuhkan untuk memasang PCB tersebut. Selain itu, terdapat juga inovasi terbaru dalam pembuatan PCB, seperti PCB Desktop Printer yang memungkinkan pencetakan langsung jalur rangkaian elektronik pada papan sirkuit menggunakan tinta berbasis minyak (solvent based ink)<p>
 
 
-
-</div>
+</body>
+</html>
