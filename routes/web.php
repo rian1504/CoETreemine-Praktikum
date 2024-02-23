@@ -46,3 +46,6 @@ Route::get("/listbarang/{id}/{nama}", [ListBarangController::class, "tampilkan"]
 
 
 Route::get("/login", [LoginController::class, "index"]);
+
+
+Route::get("/harga", [HargaController::class, "tes"]);
