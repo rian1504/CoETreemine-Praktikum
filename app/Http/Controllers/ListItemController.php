@@ -13,6 +13,7 @@ class ListItemController extends Controller
             "barang" => [
                 "barang1" => "PCB Prototype",
                 "barang2" => "PCB Assembly",
+                "barang3" => "PCB Assembly"
             ]
         ]);
     }

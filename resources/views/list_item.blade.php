@@ -10,19 +10,28 @@
 </head>
 
 <body>
-    <h1 class="text-center">LIST ITEM</h1>
+    <h1 class="text-center">LIST ITEM BARANG</h1>
     <div class="container mt-3">
-        <div class="card" style="width: 18rem;">
-            <img src="image/pcb1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">{{ $barang["barang1"] }}</p>
+        <div class="row justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <img src="image/pcb1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{ $barang["barang1"] }}</p>
+                </div>
             </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <img src="image/pcb2.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">{{ $barang["barang2"] }}</p>
+            <div class="card" style="width: 18rem; margin: 0 50px;">
+                <img src="image/pcb4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{ $barang["barang2"] }}</p>
+                </div>
             </div>
+            <div class="card" style="width: 18rem;">
+                <img src="image/pcb3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">{{ $barang["barang3"] }}</p>
+                </div>
+            </div>
+            
         </div>
     </div>
 </body>
