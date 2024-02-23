@@ -10,7 +10,10 @@ class ListItemController extends Controller
     {
         return view("list_item", [
             "title" => "List Item",
-            "nama_barang" => "PCB",
+            "barang" => [
+                "barang1" => "PCB Prototype",
+                "barang2" => "PCB Assembly",
+            ]
         ]);
     }
 }
