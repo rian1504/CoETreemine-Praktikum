@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\HargaController;
 
 /*
 |--------------------------------------------------------------------------
@@ -46,3 +47,6 @@ Route::get("/listbarang/{id}/{nama}", [ListBarangController::class, "tampilkan"]
 
 
 Route::get("/login", [LoginController::class, "index"]);
+
+
+Route::get("/harga", [HargaController::class, "tes"]);
