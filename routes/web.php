@@ -7,6 +7,7 @@ use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HargaController;
 use App\Http\Controllers\KelasController;
+use App\Http\Controllers\ClassController;
 
 /*
 |--------------------------------------------------------------------------
@@ -53,10 +54,6 @@ Route::get("/login", [LoginController::class, "index"]);
 
 Route::get("/harga", [HargaController::class, "tes"]);
 
-<<<<<<< HEAD
 Route::get("/kelas", [KelasController::class, "kelas"]);
 
 Route::get("/class", [ClassController::class, "class"]);
-=======
-Route::get("/tes", [TesController::class, "alia"]);
->>>>>>> fee5df1ff70335201f8eb36411abfd24b7155238

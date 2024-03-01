@@ -10,7 +10,7 @@ class ClassController extends Controller
         $nama = "Rizqina";
         $class = "2APAGI";
     
-            return view("kelas_view", compact("nama", "class"));
+            return view("class_view", compact("nama", "class"));
         }
     }
 
