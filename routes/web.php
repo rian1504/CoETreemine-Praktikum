@@ -57,3 +57,5 @@ Route::get("/harga", [HargaController::class, "tes"]);
 Route::get("/kelas", [KelasController::class, "kelas"]);
 
 Route::get("/class", [ClassController::class, "class"]);
+
+Route::get("/mahasiswa", [KikiController""class. "kiki"]);
