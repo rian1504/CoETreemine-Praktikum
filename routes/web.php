@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\TesController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ListBarangController;
@@ -50,3 +51,5 @@ Route::get("/login", [LoginController::class, "index"]);
 
 
 Route::get("/harga", [HargaController::class, "tes"]);
+
+Route::get("/tes", [TesController::class, "alia"]);
