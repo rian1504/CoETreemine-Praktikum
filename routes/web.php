@@ -8,6 +8,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HargaController;
 use App\Http\Controllers\KelasController;
 use App\Http\Controllers\ClassController;
+use App\Http\Controllers\KikiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -58,4 +59,4 @@ Route::get("/kelas", [KelasController::class, "kelas"]);
 
 Route::get("/class", [ClassController::class, "class"]);
 
-Route::get("/mahasiswa", [KikiController""class. "kiki"]);
+Route::get("/mahasiswa", [KikiController::class, "kiki"]);

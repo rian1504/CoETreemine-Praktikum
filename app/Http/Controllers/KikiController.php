@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class KikiController extends Controller
 {
-    function mahasiswa(){
+    function kiki(){
         return view("kiki_view");
     }
 }
