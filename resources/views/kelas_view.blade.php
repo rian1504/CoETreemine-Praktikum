@@ -6,7 +6,10 @@
     <title>Kelas</title>
 </head>
 <body>
-    <p>{{$nama}}</p>
-    <p>{{$kelas}}</p>
+    @foreach($data_nama as $data)
+        <h1>{{ $data["nama"] }}</h1>
+        <h1>{{ $data["kelas"] }}</h1>
+        <br>
+    @endforeach
 </body>
 </html>
