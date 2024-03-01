@@ -10,6 +10,7 @@ use App\Http\Controllers\KelasController;
 use App\Http\Controllers\ClassController;
 use App\Http\Controllers\KikiController;
 use App\Http\Controllers\AliaController;
+use App\Http\Controllers\SarahController;
 
 /*
 |--------------------------------------------------------------------------
@@ -62,3 +63,4 @@ Route::get("/class", [ClassController::class, "class"]);
 
 Route::get("/mahasiswa", [KikiController::class, "kiki"]);
 Route::get("/alia", [AliaController::class, "alia"]);
+Route::get("/sarah", [SarahController::class, "sarah"]);
