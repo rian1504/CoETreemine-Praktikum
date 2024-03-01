@@ -5,6 +5,7 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HargaController;
+use App\Http\Controllers\KelasController;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,3 +51,7 @@ Route::get("/login", [LoginController::class, "index"]);
 
 
 Route::get("/harga", [HargaController::class, "tes"]);
+
+Route::get("/kelas", [KelasController::class, "kelas"]);
+
+Route::get("/class", [ClassController::class, "class"]);
