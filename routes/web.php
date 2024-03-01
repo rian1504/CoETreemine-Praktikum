@@ -8,8 +8,12 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\HargaController;
 use App\Http\Controllers\KelasController;
 use App\Http\Controllers\ClassController;
+<<<<<<< HEAD
 use App\Http\Controllers\AliaController;
 
+=======
+use App\Http\Controllers\KikiController;
+>>>>>>> 8507518ebba1c9e071f1c6f1e58ac54794826f12
 
 /*
 |--------------------------------------------------------------------------
@@ -60,4 +64,8 @@ Route::get("/kelas", [KelasController::class, "kelas"]);
 
 Route::get("/class", [ClassController::class, "class"]);
 
+<<<<<<< HEAD
 Route::get("/alia", [AliaController::class, "alia"]);
+=======
+Route::get("/mahasiswa", [KikiController::class, "kiki"]);
+>>>>>>> 8507518ebba1c9e071f1c6f1e58ac54794826f12
