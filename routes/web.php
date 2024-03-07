@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MalamController;
 use App\Http\Controllers\TesController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
@@ -64,3 +65,5 @@ Route::get("/class", [ClassController::class, "class"]);
 Route::get("/mahasiswa", [KikiController::class, "kiki"]);
 Route::get("/alia", [AliaController::class, "alia"]);
 Route::get("/sarah", [SarahController::class, "sarah"]);
+
+Route::get("/malam", [MalamController::class, "malam"]);
