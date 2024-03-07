@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LaptopController;
 use App\Http\Controllers\MalamController;
 use App\Http\Controllers\TesController;
 use Illuminate\Support\Facades\Route;
@@ -67,3 +68,5 @@ Route::get("/alia", [AliaController::class, "alia"]);
 Route::get("/sarah", [SarahController::class, "sarah"]);
 
 Route::get("/malam", [MalamController::class, "malam"]);
+
+Route::get("/laptop", [LaptopController::class, "laptop"]);
