@@ -13,6 +13,7 @@ use App\Http\Controllers\ClassController;
 use App\Http\Controllers\KikiController;
 use App\Http\Controllers\AliaController;
 use App\Http\Controllers\SarahController;
+use App\Http\Controllers\HostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -70,3 +71,5 @@ Route::get("/sarah", [SarahController::class, "sarah"]);
 Route::get("/malam", [MalamController::class, "malam"]);
 
 Route::get("/laptop", [LaptopController::class, "laptop"]);
+
+Rooute::get("/host", [HostController::class, "host"]);
