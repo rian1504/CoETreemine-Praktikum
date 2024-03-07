@@ -72,4 +72,4 @@ Route::get("/malam", [MalamController::class, "malam"]);
 
 Route::get("/laptop", [LaptopController::class, "laptop"]);
 
-Rooute::get("/host", [HostController::class, "host"]);
+Route::get("/host", [HostController::class, "host"]);
