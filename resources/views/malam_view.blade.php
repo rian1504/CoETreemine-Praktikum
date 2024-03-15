@@ -6,9 +6,9 @@
     <title>malam</title>
 </head>
 <body>
-    @foreach($data_nama as $data)
-    <p>{{  $data ["nama"]  }}</p>
-    <p>{{  $data ["bulan"]  }}</p>
-    @endforeach
+   @foreach ($data_barang as $data)
+   <p>{{ $data ["nama"] }}</p>
+   <p>{{ $data ["merk"] }}</p>
+   @endforeach
 </body>
 </html>

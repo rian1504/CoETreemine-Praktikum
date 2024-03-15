@@ -8,15 +8,12 @@ class MalamController extends Controller
 {
     function malam ()
     {
-       $data_nama = [
-        ["nama" => "Kinan", "bulan" => "januari"],
-        ["nama" => "Zidni", "bulan" => "februari"],
-        ["nama" => "Rika", "bulan" => "maret"],
-        ["nama" => "Mika", "bulan" => "april"],
-        ["nama" => "Ai", "bulan" => "mei"],
-        ["nama" => "Kamila", "bulan" => "juni"],
-       ];
+        $data_barang = [
+            ["nama" => "Laptop", "merk" => "Samsung"],
+            ["nama" => "Komputer", "merk" => "Lenovo"],
+            ["nama" => "Televisi", "merk" => "LG"]
+        ];
 
-       return view("malam_view", compact("data_nama"));
+        return view("malam_view", compact("data_barang"));
     }
 }
