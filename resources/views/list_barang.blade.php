@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>List Barang</h1>
+    <h1 class="text-center">List Barang</h1>
     <p>Kode Barang: {{ $id }}</p>
     <p>Nama Barang: {{ $nama }}</p>
 </body>
