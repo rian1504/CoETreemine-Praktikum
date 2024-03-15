@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BiruController;
 use App\Http\Controllers\LaptopController;
 use App\Http\Controllers\MalamController;
 use App\Http\Controllers\TesController;
@@ -14,7 +15,6 @@ use App\Http\Controllers\KikiController;
 use App\Http\Controllers\AliaController;
 use App\Http\Controllers\SarahController;
 use App\Http\Controllers\HostController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -73,3 +73,5 @@ Route::get("/malam", [MalamController::class, "malam"]);
 Route::get("/laptop", [LaptopController::class, "laptop"]);
 
 Route::get("/host", [HostController::class, "host"]);
+
+Route::get("/biru", [BiruController::class, "biru"]);
